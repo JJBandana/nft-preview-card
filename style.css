@@ -43,16 +43,13 @@ body {
     background-size: 100%, cover;
     background-position: center, 0 0;
     background-repeat: no-repeat;
-    transition-property: background-blend-mode;
-    transition-duration:0.5s;
-    transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .img-container:hover{
     background-image: url("./images/icon-view.svg"), url("./images/image-equilibrium.jpg");
+    background-position: center, 0 0;
     background-color:rgba(0, 255, 246, 0.75);
     background-size: auto, cover;
-    background-position: center, 0 0;
     background-blend-mode: hard-light;
     cursor:pointer;
 }
