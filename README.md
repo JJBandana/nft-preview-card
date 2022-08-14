@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/JJBandana/nft-preview-card)
+- Live Site URL: [GitHub Pages](https://jjbandana.github.io/nft-preview-card/)
 
 ## My process
 
@@ -61,6 +61,6 @@ To see how you can add code snippets, see below:
 
 ## Author
 
-- Website - [Juan José Briasco](https://jjbandana.github.io/portfolio)
+- Website - [JJBandana](https://jjbandana.github.io/portfolio)
 - Frontend Mentor - [@JJBandana](https://www.frontendmentor.io/profile/JJBandana)
 - LinkedIn - [Juan José Briasco](https://www.linkedin.com/in/jjbriasco)
