@@ -43,7 +43,7 @@ body {
     background-size: 100%, cover;
     background-position: center, 0 0;
     background-repeat: no-repeat;
-    transition-property: all;
+    transition-property: background-blend-mode;
     transition-duration:0.5s;
     transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
