@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    max-width: 100%;
+}
+
+.card{
+    background-color: hsl(216, 50%, 16%);
+    margin: 100px auto 100px;
+    padding: 30px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    max-width: 350px;
+    height: 600px;
+    text-align: left;
+}
+
+.img-container{
+    background-color: #074f57;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    height: 290px;
+    width: 290px;
+    object-fit: contain;
+    background-image: url("./images/image-equilibrium.jpg");
+    background-size: 100%, cover;
+    background-position: center, 0 0;
+    background-repeat: no-repeat;
+    transition-property: all;
+    transition-duration:0.5s;
+    transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.img-container:hover{
+    background-image: url("./images/icon-view.svg"), url("./images/image-equilibrium.jpg");
+    background-color:rgba(0, 255, 246, 0.75);
+    background-size: auto, cover;
+    background-position: center, 0 0;
+    background-blend-mode: hard-light;
+    cursor:pointer;
+}
+
+
+h2 {
+    margin: 15px 0;
+    color: white;
+    font-size: larger;
+}
+
+p {
+    color:hsl(215, 51%, 70%);
+}
+
+.eth {
+    font-weight: 600;
+    color:hsl(178, 100%, 50%);
+    flex-grow: 2;
+}
+
+.coin{
+    margin:auto 7px auto 0;
+}
+
+.clock{
+    margin:auto 7px auto 0;
+}
+
+.aligned{
+    display:flex;
+    align-items: center;
+}
+
+.aligned>p>a{
+    color:white;
+    text-decoration: none;
+}
+
+hr{
+    color:hsl(215, 32%, 27%);
+    margin: 20px 0;
+}
+
+.avatar {
+    height: 35px;
+    border:2px solid hsl(215, 51%, 70%);
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    margin-right: 8px;
+}
+
+.description {
+    text-align:justify;
+    padding-bottom: 25px;
+}
+
+.active:hover{
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.image:hover{
+    content: url("./images/icon-view.svg");
+}
